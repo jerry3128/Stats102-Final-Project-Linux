@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -pedantic -Wextra -O3 -DNDEBUG  -rdynamic CMakeFiles/TreeDecompositionTest.dir/TreeDecompositionTest.cpp.o  -o TreeDecompositionTest ../../lib/libhtd.a ../googletest/googletest-release-1.7.0/libgtest.a ../googletest/googletest-release-1.7.0/libgtest_main.a ../googletest/googletest-release-1.7.0/libgtest.a -lpthread 

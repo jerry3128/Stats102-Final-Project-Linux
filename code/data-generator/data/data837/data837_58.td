@@ -1,0 +1,21 @@
+Decomposition (width 4):
+1 {6,7}
+┗━ 2 {5,7,14}
+   ┗━ 3 {5,10,14,16}
+      ┗━ 4 {3,10,11,14,16}
+         ┣━ 5 {14,19}
+         ┣━ 6 {11,14,18}
+         ┗━ 7 {3,4,10,11,16}
+            ┣━ 8 {0,3,4,11,16}
+            ┃  ┣━ 15 {0,4,11,17}
+            ┃  ┗━ 16 {0,3,4,11,20}
+            ┃     ┗━ 17 {1,4,20}
+            ┗━ 9 {4,10,12,16}
+               ┣━ 10 {2,12}
+               ┗━ 11 {8,10,12,16}
+                  ┗━ 12 {8,9,12,16}
+                     ┗━ 13 {8,9,13}
+                        ┗━ 14 {15}
+
+Node  1,  2 elements,  1 child nodes.  |  1/17 Node  2,  3 elements,  1 child nodes.  |  1/17 Node  3,  4 elements,  1 child nodes.  |  1/17 Node  4,  5 elements,  3 child nodes.  |  1/17 Node  5,  2 elements,  0 child nodes.  |  1/17 Node  4,  5 elements,  3 child nodes.  |  2/17 Node  6,  3 elements,  0 child nodes.  |  2/17 Node  4,  5 elements,  3 child nodes.  |  3/17 Node  7,  5 elements,  2 child nodes.  |  3/17 Node  8,  5 elements,  2 child nodes.  |  3/17 Node 15,  4 elements,  0 child nodes.  |  3/17 Node  8,  5 elements,  2 child nodes.  |  4/17 Node 16,  5 elements,  1 child nodes.  |  4/17 Node 17,  3 elements,  0 child nodes.  |  4/17 Node 16,  5 elements,  1 child nodes.  |  5/17 Node  8,  5 elements,  2 child nodes.  |  6/17 Node  7,  5 elements,  2 child nodes.  |  7/17 Node  9,  4 elements,  2 child nodes.  |  7/17 Node 10,  2 elements,  0 child nodes.  |  7/17 Node  9,  4 elements,  2 child nodes.  |  8/17 Node 11,  4 elements,  1 child nodes.  |  8/17 Node 12,  4 elements,  1 child nodes.  |  8/17 Node 13,  3 elements,  1 child nodes.  |  8/17 Node 14,  1 elements,  0 child nodes.  |  8/17 Node 13,  3 elements,  1 child nodes.  |  9/17 Node 12,  4 elements,  1 child nodes.  | 10/17 Node 11,  4 elements,  1 child nodes.  | 11/17 Node  9,  4 elements,  2 child nodes.  | 11/17 Node  7,  5 elements,  2 child nodes.  | 11/17 Node  4,  5 elements,  3 child nodes.  | 11/17 Node  3,  4 elements,  1 child nodes.  | 11/17 Node  2,  3 elements,  1 child nodes.  | 11/17 Node  1,  2 elements,  1 child nodes.  | 11/17                                                         Solutions:
+[0]

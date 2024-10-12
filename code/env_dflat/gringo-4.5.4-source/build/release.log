@@ -1,0 +1,216 @@
+file /home/zs175/stats102-Final/env_dflat/gringo-4.5.4-source/SConscript,line 170:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for bison 2.5... 
+scons: Configure: ".sconf_temp/conftest_0.y" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.y <-
+  |  |%require "2.5"
+  |  |%%
+  |  |start:
+  |
+scons: Configure: ".sconf_temp/conftest_0" is up to date.
+scons: Configure: The original builder output was:
+  |bison .sconf_temp/conftest_0.y -o .sconf_temp/conftest_0
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for re2c... 
+scons: Configure: ".sconf_temp/conftest_1.x" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1.x <-
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1" is up to date.
+scons: Configure: The original builder output was:
+  |re2c .sconf_temp/conftest_1.x
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether the C++ compiler works
+scons: Configure: ".sconf_temp/conftest_2.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2.cpp <-
+  |  |
+  |  |int main()
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_2.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 .sconf_temp/conftest_2.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether the (shared) C++ compiler works
+scons: Configure: ".sconf_temp/conftest_3.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_3.cpp <-
+  |  |
+  |  |int main()
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_3.os" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_3.os -c -std=c++11 -O3 -Wall -fPIC -DNDEBUG=1 .sconf_temp/conftest_3.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Auto-detecting python (python-config)... 
+scons: Configure: ".sconf_temp/conftest_4" is up to date.
+scons: Configure: The original builder output was:
+  |python-config --ldflags --includes
+  |
+scons: Configure: ".sconf_temp/conftest_5.cc" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5.cc <-
+  |  |#include <Python.h>
+  |  |int main() { }
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_5.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 -I/root/anaconda3/envs/dflat/include/python2.7 .sconf_temp/conftest_5.cc
+  |
+scons: Configure: Building ".sconf_temp/conftest_5" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_5 -std=c++11 -O3 .sconf_temp/conftest_5.o -lpython2.7 -lpthread -ldl -lutil -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Auto-detecting python (pkg-config)... 
+scons: Configure: Building ".sconf_temp/conftest_6" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-pkgconfig-version=0
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Auto-detecting lua (pkg-config)... 
+scons: Configure: Building ".sconf_temp/conftest_7" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-pkgconfig-version=0
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C++ function snprintf()... 
+scons: Configure: ".sconf_temp/conftest_8.cc" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_8.cc <-
+  |  |#include <cstdio>
+  |  |int main() {
+  |  |char buf[256]; snprintf (buf,256,"");
+  |  |return 0; }
+  |
+scons: Configure: ".sconf_temp/conftest_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_8.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 -I/root/anaconda3/envs/dflat/include/python2.7 .sconf_temp/conftest_8.cc
+  |
+scons: Configure: Building ".sconf_temp/conftest_8" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_8 -std=c++11 -O3 .sconf_temp/conftest_8.o -lpython2.7 -lpthread -ldl -lutil -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C++ function __builtin_snprintf()... 
+scons: Configure: ".sconf_temp/conftest_9.cc" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_9.cc <-
+  |  |#include <cstdio>
+  |  |int main() {
+  |  |char buf[256]; __builtin_snprintf (buf,256,"");
+  |  |return 0; }
+  |
+scons: Configure: ".sconf_temp/conftest_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_9.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 -I/root/anaconda3/envs/dflat/include/python2.7 .sconf_temp/conftest_9.cc
+  |
+scons: Configure: Building ".sconf_temp/conftest_9" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_9 -std=c++11 -O3 .sconf_temp/conftest_9.o -lpython2.7 -lpthread -ldl -lutil -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C++ function vsnprintf()... 
+scons: Configure: ".sconf_temp/conftest_10.cc" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_10.cc <-
+  |  |#include <cstdio>
+  |  |#include <cstdarg>
+  |  |int main() {
+  |  |char buf[256]; va_list args; vsnprintf (buf,256,"", args);
+  |  |return 0; }
+  |
+scons: Configure: ".sconf_temp/conftest_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_10.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 -I/root/anaconda3/envs/dflat/include/python2.7 .sconf_temp/conftest_10.cc
+  |
+scons: Configure: Building ".sconf_temp/conftest_10" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_10 -std=c++11 -O3 .sconf_temp/conftest_10.o -lpython2.7 -lpthread -ldl -lutil -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C++ function __builtin_vsnprintf()... 
+scons: Configure: ".sconf_temp/conftest_11.cc" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_11.cc <-
+  |  |#include <cstdio>
+  |  |#include <cstdarg>
+  |  |int main() {
+  |  |char buf[256]; va_list args; __builtin_vsnprintf (buf,256,"", args);
+  |  |return 0; }
+  |
+scons: Configure: ".sconf_temp/conftest_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_11.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 -I/root/anaconda3/envs/dflat/include/python2.7 .sconf_temp/conftest_11.cc
+  |
+scons: Configure: Building ".sconf_temp/conftest_11" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_11 -std=c++11 -O3 .sconf_temp/conftest_11.o -lpython2.7 -lpthread -ldl -lutil -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C++ function std::to_string()... 
+scons: Configure: ".sconf_temp/conftest_12.cc" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_12.cc <-
+  |  |#include <string>
+  |  |int main() {
+  |  |std::to_string(10);
+  |  |return 0; }
+  |
+scons: Configure: ".sconf_temp/conftest_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_12.o -c -std=c++11 -O3 -Wall -DNDEBUG=1 -I/root/anaconda3/envs/dflat/include/python2.7 .sconf_temp/conftest_12.cc
+  |
+scons: Configure: Building ".sconf_temp/conftest_12" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_12 -std=c++11 -O3 .sconf_temp/conftest_12.o -lpython2.7 -lpthread -ldl -lutil -lm
+  |
+scons: Configure: (cached) no
+
+
+file /home/zs175/stats102-Final/env_dflat/gringo-4.5.4-source/SConscript,line 235:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Auto-detecting tbb (pkg-config)... 
+scons: Configure: Building ".sconf_temp/conftest_13" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-pkgconfig-version=0
+  |
+scons: Configure: (cached) no
+
+
+file /home/zs175/stats102-Final/env_dflat/gringo-4.5.4-source/SConscript,line 264:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Auto-detecting cppunit (pkg-config)... 
+scons: Configure: Building ".sconf_temp/conftest_14" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --atleast-pkgconfig-version=0
+  |
+scons: Configure: (cached) no
+
+

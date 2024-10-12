@@ -1,0 +1,69 @@
+% Gen. Vers.    : 2.1.0
+% Graph Type    : random
+% Size          : 20
+% Th. TW        : null
+% Prob.         : 0.1
+% Output        : asp
+% Enhanced Graph: none
+% Seed          : 4291924981
+
+vertex(0).
+vertex(1).
+vertex(2).
+vertex(3).
+vertex(4).
+vertex(5).
+vertex(6).
+vertex(7).
+vertex(8).
+vertex(9).
+vertex(10).
+vertex(11).
+vertex(12).
+vertex(13).
+vertex(14).
+vertex(15).
+vertex(16).
+vertex(17).
+vertex(18).
+vertex(19).
+edge(11,13).
+edge(13,8).
+edge(2,20).
+edge(6,19).
+edge(17,8).
+edge(4,15).
+edge(1,11).
+edge(19,14).
+edge(9,16).
+edge(7,9).
+edge(6,10).
+edge(12,5).
+edge(9,15).
+edge(13,14).
+edge(7,12).
+edge(3,19).
+edge(3,20).
+edge(0,17).
+edge(16,1).
+edge(17,2).
+edge(20,6).
+edge(2,12).
+edge(4,14).
+edge(3,2).
+edge(11,20).
+edge(10,0).
+edge(15,13).
+edge(1,9).
+edge(9,5).
+edge(3,18).
+edge(5,16).
+edge(12,11).
+edge(12,15).
+edge(16,3).
+edge(14,18).
+edge(16,2).
+edge(3,12).
+edge(7,6).
+edge(18,15).
+edge(9,4).

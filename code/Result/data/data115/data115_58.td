@@ -1,0 +1,18 @@
+Decomposition (width 7):
+1 {9,12,14}
+┗━ 2 {2,4,7,9,12,17}
+   ┗━ 3 {0,2,3,4,7,9,17,18}
+      ┣━ 4 {0,2,3,4,7,9,10,18}
+      ┃  ┣━ 6 {0,2,3,4,6,9,10,18}
+      ┃  ┃  ┗━ 8 {0,2,3,4,6,8,10,18}
+      ┃  ┃     ┣━ 9 {0,10,19}
+      ┃  ┃     ┣━ 10 {0,4,6,8,10,11}
+      ┃  ┃     ┗━ 11 {2,3,4,6,8,10,18,20}
+      ┃  ┃        ┣━ 12 {4,10,13,20}
+      ┃  ┃        ┣━ 13 {3,8,10,16,20}
+      ┃  ┃        ┗━ 14 {1,2,4,8,10,18,20}
+      ┃  ┗━ 7 {0,7,10,15,18}
+      ┗━ 5 {3,5,9,17,18}
+
+Node  1,  3 elements,  1 child nodes.  |  1/14 Node  2,  6 elements,  1 child nodes.  |  1/14 Node  3,  8 elements,  2 child nodes.  |  1/14 Node  4,  8 elements,  2 child nodes.  |  1/14 Node  6,  8 elements,  1 child nodes.  |  1/14 Node  8,  8 elements,  3 child nodes.  |  1/14 Node  9,  3 elements,  0 child nodes.  |  1/14 Node  8,  8 elements,  3 child nodes.  |  2/14 Node 10,  6 elements,  0 child nodes.  |  2/14 Node  8,  8 elements,  3 child nodes.  |  3/14 Node  6,  8 elements,  1 child nodes.  |  3/14 Node  4,  8 elements,  2 child nodes.  |  3/14 Node  3,  8 elements,  2 child nodes.  |  3/14 Node  2,  6 elements,  1 child nodes.  |  3/14 Node  1,  3 elements,  1 child nodes.  |  3/14                                                         Solutions:
+[0]

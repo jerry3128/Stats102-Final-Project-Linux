@@ -1,0 +1,15 @@
+Decomposition (width 10):
+1 {1,2,5,11,14,19}
+┗━ 2 {1,2,3,5,7,10,11,15,19}
+   ┗━ 3 {1,2,3,5,7,8,10,11,15,16,17}
+      ┣━ 4 {1,2,3,4,5,7,8,10,11,16,17}
+      ┃  ┗━ 6 {1,2,3,4,5,6,7,8,10,16,17}
+      ┃     ┗━ 7 {2,3,4,5,6,7,8,10,16,17,18}
+      ┃        ┗━ 8 {2,3,4,5,6,7,8,10,13,17,18}
+      ┃           ┗━ 9 {2,3,4,5,7,8,9,10,13,18}
+      ┃              ┗━ 10 {0,5,7,9,10,13,18}
+      ┃                 ┗━ 11 {0,7,10,12,13}
+      ┗━ 5 {5,8,15,16,17,20}
+
+Node  1,  6 elements,  1 child nodes.  |  1/11 Node  2,  9 elements,  1 child nodes.  |  1/11 Node  3, 11 elements,  2 child nodes.  |  1/11 Node  4, 11 elements,  1 child nodes.  |  1/11 Node  6, 11 elements,  1 child nodes.  |  1/11 Node  7, 11 elements,  1 child nodes.  |  1/11 Node  8, 11 elements,  1 child nodes.  |  1/11 Node  9, 10 elements,  1 child nodes.  |  1/11 Node 10,  7 elements,  1 child nodes.  |  1/11 Node 11,  5 elements,  0 child nodes.  |  1/11 Node 10,  7 elements,  1 child nodes.  |  2/11 Node  9, 10 elements,  1 child nodes.  |  3/11 Node  8, 11 elements,  1 child nodes.  |  3/11 Node  7, 11 elements,  1 child nodes.  |  3/11 Node  6, 11 elements,  1 child nodes.  |  3/11 Node  4, 11 elements,  1 child nodes.  |  3/11 Node  3, 11 elements,  2 child nodes.  |  3/11 Node  2,  9 elements,  1 child nodes.  |  3/11 Node  1,  6 elements,  1 child nodes.  |  3/11                                                         Solutions:
+[0]

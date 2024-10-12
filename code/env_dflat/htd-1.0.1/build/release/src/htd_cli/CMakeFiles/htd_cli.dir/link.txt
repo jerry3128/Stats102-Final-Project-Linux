@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libhtd_cli.a  CMakeFiles/htd_cli.dir/Choice.cpp.o CMakeFiles/htd_cli.dir/MultiValueOption.cpp.o CMakeFiles/htd_cli.dir/Option.cpp.o CMakeFiles/htd_cli.dir/OptionManager.cpp.o CMakeFiles/htd_cli.dir/SingleValueOption.cpp.o CMakeFiles/htd_cli.dir/ValueOption.cpp.o
+/usr/bin/ranlib ../../lib/libhtd_cli.a

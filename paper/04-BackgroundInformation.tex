@@ -1,0 +1,41 @@
+\section{Background Information}~\label{sec.background}
+
+This section will introduce 3 basci concept of the project, 3-colorability, Tree-decomposition, and machine-learning.
+
+\subsection{3-colorability}~\label{sec.subbackground1}
+
+A coloring of a graph refers to a proper vertex coloring, namely a labeling of the graph's vertices with colors such that no two vertices sharing the same edge have the same color.
+
+A coloring using at most k colors is called a proper $k$-coloring. Thus if $k\le 3$, we call the graph is 3-colorable.
+
+The same, if a graph $G=(V, E)$ is 3 colorable. There should exist one example that $\forall v \in V, color(v) \in \{R, B, G\}$, and $\forall e = (u, v) \in E, color(u) \neq color(v)$.
+
+\subsection{Tree Decomposition}~\label{sec.subbackground2}
+
+A \textit{tree decomposition} of a graph $G=(V, E)$ is a tree $T$, where
+
+\begin{enumerate}
+    \item Each vertex $i$ of $T$ is labeled by a subset $B_{i} \subset V$ of vertices $G$, referred to as a "bag".
+    \item Each edge of $G$ is in a subgraph induced by at least one of the $B_{i}$
+    \item $\forall u \in V$, The subtree of $T$ consisting of all "bags"containing $u$ is connected.
+\end{enumerate}
+
+A rooted \textit{nice tree decomposition} $(T, B)$ of a graph $G=(V, E)$ is \textit{nice} if each node $x$ of $T$ is of one of the following types:
+
+\begin{enumerate}
+    \item leaf node: $x$ has no children and $|B_{x}| = 1$.
+    \item introduce node: $x$ has a unique child $y$ and $B_{x}=B_{y}\cup\{v\}$ for some $v \in V \backslash B_{y}$.
+    \item forget node: $x$ has a unique child $y$ and $B_{x}=B_{y}\backslash\{v\}$ for some $v \in B_{y}$.
+    \item join node: $x$ has exactly 2 children $y, z$ and $B_{x}=B_{y}=B_{z}$
+\end{enumerate}
+
+We can convert a given tree decomposition of width $t$ and $O(n)$ nodes into a nice
+tree decomposition of width $t$ and $O(tn)$ nodes in time $t^{O(1)}n$\cite{FasterTD2019}.
+
+
+
+\subsection{Machine Learning and Predictions}~\label{sec.subbackground3}
+
+Hence, we may select the features from the tree-decompositions and predict the run time of our algorithms on such structure.
+
+The detailed information of features will be introduced in the later part.

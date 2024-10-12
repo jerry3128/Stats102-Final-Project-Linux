@@ -1,0 +1,44 @@
+\begin{thebibliography}{1}
+
+\bibitem{MLonTD2017}
+M.~Abseher, N.~Musliu, and S.~Woltran.
+\newblock Improving the efficiency of dynamic programming on tree
+  decompositions via machine learning.
+\newblock {\em Journal of Artificial Intelligence Research}, 58:829--858, 04
+  2017.
+
+\bibitem{BHL1996LinearTreeDeomposition}
+H.~L. Bodlaender.
+\newblock A linear-time algorithm for finding tree-decompositions of small
+  treewidth.
+\newblock {\em SIAM Journal on Computing}, 25(6):1305--1317, 1996.
+
+\bibitem{BHL1991BetterAlgoTreeWidth}
+H.~L. Bodlaender and T.~Kloks.
+\newblock Better algorithms for the pathwidth and treewidth of graphs.
+\newblock In J.~L. Albert, B.~Monien, and M.~R. Artalejo, editors, {\em
+  Automata, Languages and Programming}, pages 544--555, Berlin, Heidelberg,
+  1991. Springer Berlin Heidelberg.
+
+\bibitem{ASP2008}
+S.~Gutin, G.~Szeider.
+\newblock Parameterized and exact computation: 8th international symposium.
+\newblock In M.~G.~R. Niedermeier, editor, {\em Automata, Languages and
+  Programming}. Springer Berlin Heidelberg, 2013.
+
+\bibitem{FasterTD2019}
+K.~Kangas, M.~Koivisto, and S.~Salonen.
+\newblock {A Faster Tree-Decomposition Based Algorithm for Counting Linear
+  Extensions}.
+\newblock In C.~Paul and M.~Pilipczuk, editors, {\em 13th International
+  Symposium on Parameterized and Exact Computation (IPEC 2018)}, volume 115 of
+  {\em Leibniz International Proceedings in Informatics (LIPIcs)}, pages
+  5:1--5:13, Dagstuhl, Germany, 2019. Schloss Dagstuhl -- Leibniz-Zentrum
+  f{\"u}r Informatik.
+
+\bibitem{BasicTD1991}
+J.~Matoušek and R.~Thomas.
+\newblock Algorithms finding tree-decompositions of graphs.
+\newblock {\em Journal of Algorithms}, 12(1):1--22, 1991.
+
+\end{thebibliography}

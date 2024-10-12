@@ -1,0 +1,62 @@
+\documentclass[10pt,journal,compsoc]{IEEEtran} % For IEEE Journal
+
+\usepackage{graphics}
+\graphicspath{ {Figures/} }
+\usepackage{float}
+\usepackage{balance}
+\usepackage{times}
+\usepackage{url}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage[pdftex]{hyperref}
+\usepackage{subfigure}
+\usepackage{textcomp}
+\usepackage{color}
+\usepackage{capt-of}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{algorithm,algorithmic}
+\usepackage{multirow}
+\usepackage{soul}
+
+\usepackage{times}
+% To make various LaTeX processors do the right thing with page size.
+
+
+% End of preamble. Here it comes the document.
+
+\begin{document}
+
+\title{Machine Learning on Optimizing Algorithms on Tree Decomposition}
+
+\author{Zhiyuan Shen,
+Yifei Wang,
+Nuo Zheng
+}
+
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+\input{01-Abstract.tex}
+\end{abstract}
+
+% Note that keywords are not normally used for peerreview papers.
+% add keywords here
+% \begin{IEEEkeywords}
+% Here goes keywords.
+% \end{IEEEkeywords}
+}
+
+\maketitle
+
+\input{02-Introduction.tex}
+\input{03-RelatedWorks.tex}
+\input{04-BackgroundInformation.tex}
+\input{05-DataGen.tex}
+\input{06-MachineLearning.tex}
+\input{07-Conclusion.tex}
+
+\bibliographystyle{abbrv}
+\bibliography{References.bib}
+
+\end{document}

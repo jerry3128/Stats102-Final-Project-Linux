@@ -1,0 +1,21 @@
+Decomposition (width 4):
+1 {5,8,9,13,19}
+┣━ 2 {8,9,10,13,19}
+┃  ┣━ 5 {8,9,10,19,20}
+┃  ┃  ┣━ 7 {0}
+┃  ┃  ┣━ 8 {6,9,20}
+┃  ┃  ┣━ 9 {8,9,17,19,20}
+┃  ┃  ┃  ┗━ 16 {1,8,17,19}
+┃  ┃  ┃     ┗━ 17 {1,14,17}
+┃  ┃  ┗━ 10 {7,8,9,19,20}
+┃  ┃     ┣━ 11 {2,7}
+┃  ┃     ┗━ 12 {7,8,9,16,20}
+┃  ┃        ┗━ 13 {7,8,9,11,16}
+┃  ┃           ┣━ 14 {11,15,16}
+┃  ┃           ┗━ 15 {4,7,9,11}
+┃  ┗━ 6 {9,10,12,13}
+┣━ 3 {5,8,13,18}
+┗━ 4 {3,5,13,19}
+
+Node  1,  5 elements,  3 child nodes.  |  1/17 Node  2,  5 elements,  2 child nodes.  |  1/17 Node  5,  5 elements,  4 child nodes.  |  1/17 Node  7,  1 elements,  0 child nodes.  |  1/17 Node  5,  5 elements,  4 child nodes.  |  2/17 Node  8,  3 elements,  0 child nodes.  |  2/17 Node  5,  5 elements,  4 child nodes.  |  3/17 Node  9,  5 elements,  1 child nodes.  |  3/17 Node 16,  4 elements,  1 child nodes.  |  3/17 Node 17,  3 elements,  0 child nodes.  |  3/17 Node 16,  4 elements,  1 child nodes.  |  4/17 Node  9,  5 elements,  1 child nodes.  |  5/17 Node  5,  5 elements,  4 child nodes.  |  6/17 Node 10,  5 elements,  2 child nodes.  |  6/17 Node 11,  2 elements,  0 child nodes.  |  6/17 Node 10,  5 elements,  2 child nodes.  |  7/17 Node 12,  5 elements,  1 child nodes.  |  7/17 Node 13,  5 elements,  2 child nodes.  |  7/17 Node 14,  3 elements,  0 child nodes.  |  7/17 Node 13,  5 elements,  2 child nodes.  |  8/17 Node 15,  4 elements,  0 child nodes.  |  8/17 Node 13,  5 elements,  2 child nodes.  |  9/17 Node 12,  5 elements,  1 child nodes.  | 10/17 Node 10,  5 elements,  2 child nodes.  | 11/17 Node  5,  5 elements,  4 child nodes.  | 12/17 Node  2,  5 elements,  2 child nodes.  | 12/17 Node  1,  5 elements,  3 child nodes.  | 12/17                                                         Solutions:
+[0]

@@ -1,0 +1,22 @@
+Decomposition (width 2):
+1 {8,19}
+┗━ 2 {2,8}
+   ┣━ 3 {13}
+   ┃  ┗━ 18 {14}
+   ┣━ 4 {1,2,6}
+   ┃  ┣━ 6 {0,6}
+   ┃  ┃  ┣━ 8 {0,5}
+   ┃  ┃  ┃  ┗━ 11 {5,7,12}
+   ┃  ┃  ┃     ┣━ 12 {7,12,17}
+   ┃  ┃  ┃     ┣━ 13 {5,16}
+   ┃  ┃  ┃     ┣━ 14 {5,11}
+   ┃  ┃  ┃     ┃  ┗━ 17 {10,11}
+   ┃  ┃  ┃     ┗━ 15 {3,5,7}
+   ┃  ┃  ┃        ┗━ 16 {3,7,9}
+   ┃  ┃  ┗━ 9 {4,6}
+   ┃  ┃     ┗━ 10 {4,20}
+   ┃  ┗━ 7 {2,6,18}
+   ┗━ 5 {8,15}
+
+Node  1,  2 elements,  1 child nodes.  |  1/18 Node  2,  2 elements,  3 child nodes.  |  1/18 Node  3,  1 elements,  1 child nodes.  |  1/18 Node 18,  1 elements,  0 child nodes.  |  1/18 Node  3,  1 elements,  1 child nodes.  |  2/18 Node  2,  2 elements,  3 child nodes.  |  3/18 Node  4,  3 elements,  2 child nodes.  |  3/18 Node  6,  2 elements,  2 child nodes.  |  3/18 Node  8,  2 elements,  1 child nodes.  |  3/18 Node 11,  3 elements,  4 child nodes.  |  3/18 Node 12,  3 elements,  0 child nodes.  |  3/18 Node 11,  3 elements,  4 child nodes.  |  4/18 Node 13,  2 elements,  0 child nodes.  |  4/18 Node 11,  3 elements,  4 child nodes.  |  5/18 Node 14,  2 elements,  1 child nodes.  |  5/18 Node 17,  2 elements,  0 child nodes.  |  5/18 Node 14,  2 elements,  1 child nodes.  |  6/18 Node 11,  3 elements,  4 child nodes.  |  7/18 Node 15,  3 elements,  1 child nodes.  |  7/18 Node 16,  3 elements,  0 child nodes.  |  7/18 Node 15,  3 elements,  1 child nodes.  |  8/18 Node 11,  3 elements,  4 child nodes.  |  9/18 Node  8,  2 elements,  1 child nodes.  | 10/18 Node  6,  2 elements,  2 child nodes.  | 11/18 Node  9,  2 elements,  1 child nodes.  | 11/18 Node 10,  2 elements,  0 child nodes.  | 11/18 Node  9,  2 elements,  1 child nodes.  | 12/18 Node  6,  2 elements,  2 child nodes.  | 13/18 Node  4,  3 elements,  2 child nodes.  | 14/18 Node  7,  3 elements,  0 child nodes.  | 14/18 Node  4,  3 elements,  2 child nodes.  | 15/18 Node  2,  2 elements,  3 child nodes.  | 16/18 Node  5,  2 elements,  0 child nodes.  | 16/18 Node  2,  2 elements,  3 child nodes.  | 17/18 Node  1,  2 elements,  1 child nodes.  | 18/18                                                         Solutions:
+[3649536] 

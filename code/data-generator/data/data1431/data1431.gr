@@ -1,0 +1,89 @@
+% Gen. Vers.    : 2.1.0
+% Graph Type    : random
+% Size          : 20
+% Th. TW        : null
+% Prob.         : 0.1
+% Output        : asp
+% Enhanced Graph: none
+% Seed          : 2699842048
+
+vertex(0).
+vertex(1).
+vertex(2).
+vertex(3).
+vertex(4).
+vertex(5).
+vertex(6).
+vertex(7).
+vertex(8).
+vertex(9).
+vertex(10).
+vertex(11).
+vertex(12).
+vertex(13).
+vertex(14).
+vertex(15).
+vertex(16).
+vertex(17).
+vertex(18).
+vertex(19).
+edge(0,11).
+edge(20,6).
+edge(9,8).
+edge(9,11).
+edge(9,7).
+edge(7,11).
+edge(0,1).
+edge(4,6).
+edge(20,14).
+edge(19,8).
+edge(9,0).
+edge(17,10).
+edge(7,0).
+edge(9,5).
+edge(18,12).
+edge(15,13).
+edge(2,4).
+edge(3,12).
+edge(3,20).
+edge(9,12).
+edge(9,3).
+edge(18,13).
+edge(20,11).
+edge(10,2).
+edge(3,6).
+edge(15,10).
+edge(6,8).
+edge(14,4).
+edge(19,12).
+edge(8,18).
+edge(15,16).
+edge(12,15).
+edge(14,7).
+edge(7,12).
+edge(1,12).
+edge(12,13).
+edge(13,9).
+edge(2,6).
+edge(7,6).
+edge(11,14).
+edge(3,7).
+edge(15,1).
+edge(5,4).
+edge(14,9).
+edge(16,17).
+edge(15,6).
+edge(18,10).
+edge(13,20).
+edge(20,15).
+edge(0,12).
+edge(2,20).
+edge(18,5).
+edge(12,8).
+edge(17,19).
+edge(13,4).
+edge(13,10).
+edge(8,3).
+edge(4,18).
+edge(14,8).
+edge(5,11).

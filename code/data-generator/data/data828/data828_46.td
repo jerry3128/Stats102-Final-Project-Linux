@@ -1,0 +1,20 @@
+Decomposition (width 5):
+1 {2,11,14,17,19}
+┣━ 2 {2,5,11,16,17,19}
+┃  ┣━ 5 {0,2,5,11,16,19}
+┃  ┃  ┗━ 8 {0,5,10,11,16,19}
+┃  ┃     ┣━ 9 {5,9,10,11,16,19}
+┃  ┃     ┃  ┣━ 11 {5,9,10,11,15,16}
+┃  ┃     ┃  ┃  ┣━ 14 {3,10,15}
+┃  ┃     ┃  ┃  ┣━ 15 {5,6,10,16}
+┃  ┃     ┃  ┃  ┗━ 16 {5,9,11,15,20}
+┃  ┃     ┃  ┗━ 12 {1,5,10,19}
+┃  ┃     ┃     ┗━ 13 {1,18,19}
+┃  ┃     ┗━ 10 {0,7,11,16}
+┃  ┗━ 6 {5,8,11,17}
+┃     ┗━ 7 {12}
+┣━ 3 {4,11,14,19}
+┗━ 4 {13,14,17,19}
+
+Node  1,  5 elements,  3 child nodes.  |  1/16 Node  2,  6 elements,  2 child nodes.  |  1/16 Node  5,  6 elements,  1 child nodes.  |  1/16 Node  8,  6 elements,  2 child nodes.  |  1/16 Node  9,  6 elements,  2 child nodes.  |  1/16 Node 11,  6 elements,  3 child nodes.  |  1/16 Node 14,  3 elements,  0 child nodes.  |  1/16 Node 11,  6 elements,  3 child nodes.  |  2/16 Node 15,  4 elements,  0 child nodes.  |  2/16 Node 11,  6 elements,  3 child nodes.  |  3/16 Node 16,  5 elements,  0 child nodes.  |  3/16 Node 11,  6 elements,  3 child nodes.  |  4/16 Node  9,  6 elements,  2 child nodes.  |  5/16 Node 12,  4 elements,  1 child nodes.  |  5/16 Node 13,  3 elements,  0 child nodes.  |  5/16 Node 12,  4 elements,  1 child nodes.  |  6/16 Node  9,  6 elements,  2 child nodes.  |  7/16 Node  8,  6 elements,  2 child nodes.  |  8/16 Node 10,  4 elements,  0 child nodes.  |  8/16 Node  8,  6 elements,  2 child nodes.  |  9/16 Node  5,  6 elements,  1 child nodes.  | 10/16 Node  2,  6 elements,  2 child nodes.  | 11/16 Node  6,  4 elements,  1 child nodes.  | 11/16 Node  7,  1 elements,  0 child nodes.  | 11/16 Node  6,  4 elements,  1 child nodes.  | 12/16 Node  2,  6 elements,  2 child nodes.  | 13/16 Node  1,  5 elements,  3 child nodes.  | 14/16 Node  3,  4 elements,  0 child nodes.  | 14/16 Node  1,  5 elements,  3 child nodes.  | 15/16 Node  4,  4 elements,  0 child nodes.  | 15/16 Node  1,  5 elements,  3 child nodes.  | 16/16                                                         Solutions:
+[198] 

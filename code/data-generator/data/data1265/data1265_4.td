@@ -1,0 +1,16 @@
+Decomposition (width 9):
+1 {0,2,3,5,6,8,14,15,16,19}
+┣━ 2 {0,3,18}
+┣━ 3 {2,3,5,6,13,14,16}
+┃  ┗━ 12 {2,3,6,9,13}
+┣━ 4 {0,2,3,5,12,14,15,16,19}
+┣━ 5 {0,7,8,16}
+┣━ 6 {0,2,4,5,8,19}
+┃  ┗━ 11 {4,5,8,10}
+┣━ 7 {0,3,8,11,15,16,19}
+┃  ┗━ 10 {0,11,16,17}
+┗━ 8 {1,2,3,5,6,8,14,15,19}
+   ┗━ 9 {1,5,6,8,15,20}
+
+Node  1, 10 elements,  7 child nodes.  |  1/12 Node  2,  3 elements,  0 child nodes.  |  1/12 Node  1, 10 elements,  7 child nodes.  |  2/12 Node  3,  7 elements,  1 child nodes.  |  2/12 Node 12,  5 elements,  0 child nodes.  |  2/12 Node  3,  7 elements,  1 child nodes.  |  3/12 Node  1, 10 elements,  7 child nodes.  |  4/12 Node  4,  9 elements,  0 child nodes.  |  4/12 Node  1, 10 elements,  7 child nodes.  |  5/12                                                         Solutions:
+[0]

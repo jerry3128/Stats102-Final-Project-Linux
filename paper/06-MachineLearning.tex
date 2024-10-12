@@ -1,0 +1,47 @@
+\section{Machine Learning}~\label{sec.ML}
+
+In this section, we will introduce the features we select and how we implement the machine learning.
+
+Apparently, compared to the other features, the \textit{Tree Width} has much more impact on the run time. Thus we straightly group the data by tree width, and then for each group we do the polynomial linear regression.
+
+Here is the features we may use:
+
+\begin{enumerate}
+    \item Average Bag Size: Average of size of bags on tree decomposition.
+    \item Decomposition Overhead Ratio: Sum of bag size divided by size of graph.
+    \item Average Depth: Average depth of tree.
+    \item Node percentage: Introduce/Forget/Join/Leaf's Percentage of tree (sum of them is 100\%).
+    \item Sum of Join node distance: Find all pairs of Join nodes and plus their distances.
+    \item Branching Factor: Average number of childs (exclude leaf nodes).
+    \item Bag Adjacency Factor: For all pair of nodes in a bag, that the adjacencent pairs divided by the total pairs.
+    \item Bag Connectedness Factor: For all pair of nodes in a bag, the reachable pairs divided by the total pairs.
+    \item Bag Neighborhood Coverage Factor: For all bags $B_{x}$, average of nodes that belong to a bag $B_{x}$ or are adjacencent to a node belongs to $B_{x}$
+\end{enumerate}
+
+After training, we use cross validation to validate each model and select the polynomial linear regression.
+
+We select the best models to participate in the final test.
+
+Model: For each tree width, we use Linear-Regression to predict the runtime.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.36\textwidth]{model_polyLR.png}
+    \caption{separate tree-width, straight polynomial linear regression for run time}
+    \label{separate tree-width, straight polynomial linear regression for run time}
+    \end{figure}
+
+Also we compare this model with the other models by the square of the difference between the predictions and real value, and we call this.
+
+The models for the ln of run time all has sum of square of difference over $10^{6}$, while straightly linear regression the run time only over $10^{5}$.
+
+Then, we see that, if we combine all data, the model shows obvious inaccurate in the area that tree width is little.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.36\textwidth]{no_separate_treewidth.png}
+    \caption{combine tree-width, straight polynomial linear regression for run time}
+    \label{combine tree-width, straight polynomial linear regression for run time}
+    \end{figure}
+
+Thus we may choose the separate tree width model as the predictor.

@@ -1,0 +1,20 @@
+Decomposition (width 5):
+1 {0,3,8,12,17}
+┣━ 2 {1,3,8,12,17,18}
+┃  ┗━ 4 {1,3,4,12,17,18}
+┃     ┣━ 5 {1,3,4,17,18,19}
+┃     ┃  ┣━ 10 {1,4,5,17,19}
+┃     ┃  ┃  ┣━ 14 {4,14}
+┃     ┃  ┃  ┗━ 15 {4,5,9,17}
+┃     ┃  ┃     ┗━ 16 {2,4,9}
+┃     ┃  ┗━ 11 {1,3,4,13,17,19}
+┃     ┃     ┗━ 12 {3,10,13,17}
+┃     ┃        ┗━ 13 {3,6,10,17}
+┃     ┗━ 6 {3,4,12,15,18}
+┃        ┗━ 7 {4,12,15,18,20}
+┃           ┗━ 8 {4,12,15,16,20}
+┃              ┗━ 9 {4,7,15,16,20}
+┗━ 3 {0,11,17}
+
+Node  1,  5 elements,  2 child nodes.  |  1/16 Node  2,  6 elements,  1 child nodes.  |  1/16 Node  4,  6 elements,  2 child nodes.  |  1/16 Node  5,  6 elements,  2 child nodes.  |  1/16 Node 10,  5 elements,  2 child nodes.  |  1/16 Node 14,  2 elements,  0 child nodes.  |  1/16 Node 10,  5 elements,  2 child nodes.  |  2/16 Node 15,  4 elements,  1 child nodes.  |  2/16 Node 16,  3 elements,  0 child nodes.  |  2/16 Node 15,  4 elements,  1 child nodes.  |  3/16 Node 10,  5 elements,  2 child nodes.  |  4/16 Node  5,  6 elements,  2 child nodes.  |  5/16 Node 11,  6 elements,  1 child nodes.  |  5/16 Node 12,  4 elements,  1 child nodes.  |  5/16 Node 13,  4 elements,  0 child nodes.  |  5/16 Node 12,  4 elements,  1 child nodes.  |  6/16 Node 11,  6 elements,  1 child nodes.  |  7/16 Node  5,  6 elements,  2 child nodes.  |  8/16 Node  4,  6 elements,  2 child nodes.  |  9/16 Node  6,  5 elements,  1 child nodes.  |  9/16 Node  7,  5 elements,  1 child nodes.  |  9/16 Node  8,  5 elements,  1 child nodes.  |  9/16 Node  9,  5 elements,  0 child nodes.  |  9/16 Node  8,  5 elements,  1 child nodes.  | 10/16 Node  7,  5 elements,  1 child nodes.  | 10/16 Node  6,  5 elements,  1 child nodes.  | 10/16 Node  4,  6 elements,  2 child nodes.  | 10/16 Node  2,  6 elements,  1 child nodes.  | 10/16 Node  1,  5 elements,  2 child nodes.  | 10/16                                                         Solutions:
+[0]

@@ -1,0 +1,15 @@
+317-ms 6550-units
+true
+Average Bag Size:4.466667
+Average Depth:4.533333
+Bag Adjacency Factor:0.507619
+Bag Connectedness Factor:0.506984
+Bag Neighborhood Coverage Factor:5.105397
+Branching Factor:1.500000
+Decomposition Overhead Ratio:3.350000
+Forget Percentage:0.000000
+Introduce Percentage:0.266667
+Join Percentage:0.133333
+Leaf Percentage:0.333333
+Sum of Join node distances:2.000000
+Tree Width:6.000000
