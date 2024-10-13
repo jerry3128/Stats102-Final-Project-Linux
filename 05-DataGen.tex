@@ -1,0 +1,36 @@
+\section{Data-Set Generating}~\label{sec.DataGen}
+
+This project generate all the data in Linux, Ubuntu 20.04 environment. The code could be found at \url{https://github.com/jerry3128/Stats102-Final-Project-Linux}.
+
+In total, we generate 2000 graphs and 100 tree decompositions for each graph used to train our model.
+
+\begin{enumerate}
+    \item get the full training data: \url{124.223.218.55:850/csv/data.tar.gz}
+    \item get the full testing data: \url{124.223.218.55:850/csv/test.tar.gz}1
+    \item get the traiining data's csv: \url{124.223.218.55:850/csv/data.csv}
+    \item get the testing data's csv: \url{124.223.218.55:850/csv/test.csv}
+\end{enumerate}
+
+\subsection{Graph Generating}~\label{sec.DataGen1}
+
+The undirected graph is generated based on uniformly randomly select the edge from the complete graph. In this way, it is convenient to control some features like the number of edges.
+
+\subsection{Tree Decomposition Generating}~\label{sec.DataGen2}
+
+In this part, the implemention refers to hypertree decompositions(\url{https://github.com/mabseher/htd}), and \cite{BHL1996LinearTreeDeomposition}. Thus the tree-decomposition algorithm for this project is actually a combined algorithm.
+
+In the process of generating tree-decomposition, we may find a maximum matching of the graph, and we can adjust the tree-decomposition after we done the algorithm, thus we can randomize the order to node to get different tree decomposition and add slight variables to the tree-decomposition to generate mutiple of them.
+
+\subsection{Problem Solver}~\label{sec.DataGen3}
+
+To solve the 3-colorability on a graph with its tree-decomposition, we may use ASP (Answer Set program) principles \cite{ASP2008}.
+
+Originally, we have the full set of answers. For 3-colorability, that means we can color every node into every color. When we gradually link the edges, new restrictions, such as the color of two nodes in a link cannot be the same, will be formed. Then, we delete the answers in the set that do not satisfy the new restrictions.
+
+In the end, the remained answers are acceptable answers to origin problem.
+
+To implement this algorithm, we can use back-track searching through C++ to stimulate the process. More information could be found in the code.
+
+\subsection{CSV File Generating}~\label{sec.DataGen4}
+
+Another C++ program is written to generate csv file and deal with these features.
